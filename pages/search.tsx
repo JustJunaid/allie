@@ -95,7 +95,6 @@ export default function Search({
     <Container>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 mt-3 mb-20">
         <div className="col-span-8 lg:col-span-2 order-1 lg:order-none">
-          {/* Categories */}
           <div className="relative inline-block w-full">
             <div className="lg:hidden">
               <span className="rounded-md shadow-sm">
@@ -372,7 +371,7 @@ export default function Search({
         </div>
 
         {/* Sort */}
-        <div className="col-span-8 lg:col-span-2 order-2 lg:order-none">
+        {/* <div className="col-span-8 lg:col-span-2 order-2 lg:order-none">
           <div className="relative inline-block w-full">
             <div className="lg:hidden">
               <span className="rounded-md shadow-sm">
@@ -463,7 +462,7 @@ export default function Search({
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Container>
   )

@@ -75,7 +75,7 @@ const Layout: FC<Props> = ({
           <CartSidebarView />
         </Sidebar>
 
-        <FeatureBar
+        {/* <FeatureBar
           title="This site uses cookies to improve your experience. By clicking, you agree to our Privacy Policy."
           hide={acceptedCookies}
           action={
@@ -83,7 +83,7 @@ const Layout: FC<Props> = ({
               Accept cookies
             </Button>
           }
-        />
+        /> */}
       </div>
     </CommerceProvider>
   )
